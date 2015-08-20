@@ -44,3 +44,5 @@ unable to prepare context: The Dockerfile (/tmp/docker/Dockerfile) must be withi
 
 4-Now cd into ```docker``` sub directory and run ```docker build -t test .```, it works.
 
+5-Note, inside the docker directory, ```docker build -f ./Dockerfile -t test .``` also fails.
+
