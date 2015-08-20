@@ -46,3 +46,10 @@ unable to prepare context: The Dockerfile (/tmp/docker/Dockerfile) must be withi
 
 5-Note, inside the docker directory, ```docker build -f ./Dockerfile -t test .``` also fails.
 
+6-Finally, full path fails for me also.
+
+```
+>docker build -f `pwd`/Dockerfile -t test `pwd`
+unable to prepare context: The Dockerfile (/tmp/Dockerfile) must be within the build context (/tmp)
+```
+
