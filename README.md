@@ -1,5 +1,5 @@
 # docker-test
-Test Docker 1.8 build problem
+Test Docker 1.8 build problem with Boot2Docker when building in a directory that is NOT under "home", e.g. in /tmp.
 
 My setup
 
@@ -31,7 +31,7 @@ Server:
 
 To see the problem;
 
-1-clone this repo
+1-clone this repo from ```/tmp``` or anywhere NOT under "home".
 
 2-cd into ```docker-test```
 
